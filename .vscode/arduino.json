@@ -1,0 +1,5 @@
+{
+    "sketch": "Solar_Tracking.ino",
+    "board": "arduino:avr:uno",
+    "port": "/dev/ttyACM0"
+}
