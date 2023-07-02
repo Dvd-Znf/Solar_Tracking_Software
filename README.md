@@ -47,6 +47,11 @@ The workspace provided is configured for _Vscode_ on _Linux_ using _avr-gcc_ and
 The board config is set to _Arduino UNO_ and Serial Port is on _`/dev/ttyACM0`_     
 You should delete and reconfigure config files stored under `.vscode` using the Arduino extension if you are on a different environment.   
 *Warning:* Untested on Arduino IDE, weird things might happen if you try to open this workspace.    
-
+   
+## Note regarding Arduino Sketches:
+Arduino sketches are garbage, so the name of the parent folder in which the .ino file is located _must have the exact name as the parent folder_!!!     
+This _is not_ the default behaivior for this repo, so please change the parent folder name to: `Solar_Tracking`    
+I might change the name of the .ino file to avoid this issue, but this shouldn't really be an issue to begin with _:(_      
+   
 ## Credit:
 Blog post providing initial information and instruction for dual-axis solar tracking: [Original Blog Post](https://www.instructables.com/Simple-Dual-Axis-Solar-Tracker/)
