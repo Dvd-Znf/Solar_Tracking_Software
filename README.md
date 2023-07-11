@@ -50,8 +50,9 @@ You should delete and reconfigure config files stored under `.vscode` using the 
    
 ## Note regarding Arduino Sketches:
 Arduino sketches are garbage, so the name of the parent folder in which the .ino file is located _must have the exact name as the parent folder_!!!     
-This _is not_ the default behaivior for this repo, so please change the parent folder name to: `Solar_Tracking`    
-I might change the name of the .ino file to avoid this issue, but this shouldn't really be an issue to begin with _:(_      
-   
+~~This is not the default behaivior for this repo, so please change the parent folder name to: `Solar_Tracking`~~    
+~~I might change the name of the .ino file to avoid this issue, but this shouldn't really be an issue to begin with :(~~     
+This is now the default behaivior for this repo         
+        
 ## Credit:
 Blog post providing initial information and instruction for dual-axis solar tracking: [Original Blog Post](https://www.instructables.com/Simple-Dual-Axis-Solar-Tracker/)
