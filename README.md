@@ -7,11 +7,13 @@ Just as the title says this is a repo containing software for a simple solar tra
 - 4 Photoresistors(LDR), preferably in a single Photosensitive array   
 - 2 PWM controlled micro-servomotors     
 ## Default Pinout:  
-The Pinout can and should be changed, depending on your circumstances, from the source code.      
+The Pinout can and should be changed, depending on your circumstances, directly from the source code.      
+All the variables that would require configuration are stored inside the `config.h` header file.       
 The following will describe connection for a typical Arduino UNO board:    
      
 Built in LED (pin 13) is used for debugging, because serial monitoring is always broken.   
 Feel free to connect a small speaker to it for nice audio feedback.    
+If you need it, change `bool debug` to `true`      
      
 Horizontal servomotor -> pin 9 (PWM)   
 Vertical servomotor -> pin 10 (PWM)   
@@ -21,7 +23,7 @@ LDR Top Left   -> A0 (Analog IN)
 LDR Top Right  -> A1 (Analog IN)    
 LDR Down Left  -> A3 (Analog IN)    
 LDR Down Right -> A2 (Analog IN)    
-These can be changed from where they are initially declared:   
+These can be changed from `config.h`:   
 ```
 int LDR_Top_Left = /*value of pin here*/,  
     LDR_Top_Right = /*value of pin here*/, 
