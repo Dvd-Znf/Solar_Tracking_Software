@@ -48,7 +48,7 @@ VCC is connected to 5V (Or whatever you need) and GND is connected to Ground lik
 The workspace provided is configured for _Vscode_ on _Linux_ using _avr-gcc_ and _Arduino extension from Microsoft_.   
 The board config is set to _Arduino UNO_ and Serial Port is on _`/dev/ttyACM0`_     
 You should delete and reconfigure config files stored under `.vscode` using the Arduino extension if you are on a different environment.   
-*Warning:* Untested on Arduino IDE, weird things might happen if you try to open this workspace.    
+*Note:* Also tested on Arduino IDE, so it should be fine, but weird things might still happen anyway.    
             
 ## Credit:
 Blog post providing initial information and instruction for dual-axis solar tracking: [Original Blog Post](https://www.instructables.com/Simple-Dual-Axis-Solar-Tracker/)
