@@ -41,7 +41,7 @@ void loop() {
     
   if (-1*INT_Tolerance > Vertical_Difference || Vertical_Difference > INT_Tolerance){           //why????
     if (AVG_Top > AVG_Down){                                                                    //Put && here and at 49 
-        Vertical_Servo++;                                                                       //TODO  ^^^
+        Vertical_Servo++;                                                                       //Ok maybe not?
         switch((Vertical_Servo > Vertical_Servo_LimitHigh)){
           case 1: Vertical_Servo = Vertical_Servo_LimitHigh; break;
           default: break;
