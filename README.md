@@ -1,4 +1,6 @@
-# Solar Tracking Software  
+# Solar Tracking Software [NOT ACTIVELY MAINTANED ANYMORE]
+## DEPRECATION NOTICE:
+This repo won't recive any more updates, but it will still be available as a public archive. 
 ## Simple and readable software made for a simple solar tracker.    
 Just as the title says this is a repo containing software for a simple solar tracker.   
 ## Hardware:  
